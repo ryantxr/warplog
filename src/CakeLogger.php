@@ -22,6 +22,6 @@ class CakeLogger extends \Psr\Log\AbstractLogger
     public function log($level, $message, array $context = [])
     {
         // NOTE: the following will only work in a CakePHP 2.x environment.
-        CakeLog::write($level, $this->interpolate($message, $context));
+        \CakeLog::write($level, $this->interpolate($message, $context));
     }
 }
