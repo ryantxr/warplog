@@ -1,0 +1,2 @@
+# warplog
+A logging wrapper
