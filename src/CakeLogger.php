@@ -7,7 +7,7 @@
  *
  *  @author Ryan Teixeira
  */
-class WarpCakeWrapper extends \Psr\Log\AbstractLogger
+class CakeLogger extends \Psr\Log\AbstractLogger
 {
     use Interpolator;
     /**
